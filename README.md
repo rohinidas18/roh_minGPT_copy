@@ -15,6 +15,8 @@
 It is recommended that you use a git extension for your IDE to complete this lab. If you are using Visual Studio Code, you can use the [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) extension.
 
 ## Setup
+We'll be using a copy of the source code for minGPT provided by Andrej Karpathy. minGPT is a simpler PyTorch re-implementation of GPT. If you're interested in reading up on it, feel free to explore the repository of [minGPT](https://github.com/karpathy/minGPT).
+
 1. **Clone** this minGPT repository to your local machine - [avyasharma/minGPT_copy](https://github.com/avyasharma/minGPT_copy) - by running the following command in your terminal:
 
 ```
@@ -42,7 +44,7 @@ cd minGPT_copy
 
 ## Exercise 2: Create a pull request to the original repository
 
-1. Create a new branch (e.g., `pull-request`) from `main`. Make a small, reviewable change (e.g., a comment or README line) and commit.  
+1. Create a new branch (e.g., `[andrew_id]-pull-request`) from `main`. Make a small, reviewable change (e.g., a comment or README line) and commit.  
 2. **Attempt to push** this branch to the current `origin`. **Let it fail** if you don’t have write access. 
    - Try running the following command - `git remote -v` - to debug the issue (We expect you to understand the usage and output of this command)
 3. On GitHub, **fork** [avyasharma/minGPT_copy](https://github.com/avyasharma/minGPT_copy) to your own account. (You had only cloned it earlier)
