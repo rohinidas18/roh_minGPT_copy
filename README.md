@@ -53,8 +53,6 @@ trainer = Trainer(train_config, model, train_dataset)
 trainer.run()
 ```
 
-See `demo.ipynb` for a more concrete example.
-
 ### Unit tests
 
 Coverage is not super amazing just yet but:
